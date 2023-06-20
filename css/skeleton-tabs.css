@@ -1,0 +1,100 @@
+ul.tab-nav {
+    list-style: none;
+    border-bottom: 1px solid #bbb;
+    padding-left: 5px;
+}
+
+ul.tab-nav li {
+    display: inline;
+    padding-left: 0px;
+}
+
+ul.tab-nav li a.button {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+    border-bottom: none;
+}
+
+ul.tab-nav li a.active.button {
+    border-bottom: 0.175em solid #704C6F;
+    background: #704C6F;
+}
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}
+.cristina1 {
+    background: url("../images/cristina1.png") no-repeat;
+    max-width: 100%;
+    height: 400px;
+    background-size: contain;
+}
+.cristina2 {
+    background: url("../images/cristina2.png") no-repeat;
+    max-width: 100%;
+    height: 420px;
+    background-size: contain;
+}
+.cristina3 {
+    background: url("../images/cristina3.png") no-repeat;
+    max-width: 100%;
+    height: 520px;
+    background-size: contain;
+}
+.clay1{
+    background: url("../images/clay1.png") no-repeat;
+    max-width: 100%;
+    height: 300px;
+    background-size: contain;
+}
+.clay2 {
+    background: url("../images/clay2.png") no-repeat;
+    max-width: 100%;
+    height: 540px;
+    background-size: contain;
+}
+.clay3 {
+    background: url("../images/clay3.png") no-repeat;
+    max-width: 100%;
+    height: 400px;
+    background-size: contain;
+}
+.dockett1 {
+    background: url("../images/dockettGoogle.png") no-repeat;
+    max-width: 100%;
+    height: 700px;
+    background-size: contain;
+}
+.dockett2 {
+    background: url("../images/dockettIcons.png") no-repeat;
+    max-width: 100%;
+    height: 257px;
+    background-size: contain;
+}
+.dockett3 {
+    background: url("../images/dockett1.png") no-repeat;
+    max-width: 100%;
+    height: 360px;
+    background-size: contain;
+}
+/* Larger than mobile */
+@media (min-width: 320px) {
+    ul.tab-nav {
+        border-bottom: 0px solid transparent;
+    }
+    ul.tab-nav li {
+        margin-bottom: 1em;
+        display: block;
+    }
+    .dockett1 {
+        height: 270px;
+    }
+    .tab-content .row {
+        padding-left: 0px;
+    }
+}

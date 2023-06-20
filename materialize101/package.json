@@ -1,0 +1,15 @@
+{
+  "name": "frameworkstarter",
+  "version": "1.0.0",
+  "description": "sweet tutorial to start a framwork with sass and materialize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "author": "Michelle Currier",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

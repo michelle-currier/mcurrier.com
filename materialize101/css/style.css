@@ -1,0 +1,104 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ * and Michelle Claire Currier of m. currier designs
+ */
+
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+p b {
+  font-weight: 700;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+}
+.parallax-container .section {
+  width: 100%;
+}
+.parallax-container .header {
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: .15em;
+  text-shadow: 2px 2px 0 #455a64;
+}
+.brand-logo {
+  /*background: url('../vsp-logo.jpg') no-repeat;
+  width: 136px;
+  height: 60px;
+  margin-top: 2px;
+  background-size: contain;*/
+}
+.grayscale {
+  filter:grayscale(60%);
+}
+nav ul a:hover {
+  background-color: #F5F0EC;
+}
+i.big {
+  font-size: 4rem;
+}
+.thumbnails {
+  margin-right: -1.5rem !important;
+  margin-left: -1.5rem !important;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 34%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .brand-logo {
+    height: 52px;
+    margin-top: 1px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
