@@ -657,6 +657,10 @@ h1 {
   margin-right: 1%;
   margin-bottom: 2%;
 }
+.row.tech-skills .two:hover {
+  transform: scale(1.05);
+  transition: transform .6s ease-in;
+}
 .tech-skills a svg, .tech-skills a div {
   height: 120px;
   text-align: center;
