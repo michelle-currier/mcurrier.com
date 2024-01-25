@@ -573,7 +573,7 @@ h1 {
 }
 
 .inner-wrapper {
-  width: 1700%; /* number of slides * 100 */
+  width: 1800%; /* number of slides * 100 */
   height: 100%;
   position: relative;
   left: -100%;
@@ -582,7 +582,7 @@ h1 {
 }
 
 .slide {
-  width: calc(100% / 17); /* number of slides / 100 */
+  width: calc(100% / 18); /* number of slides / 100 */
   height: 100%;
   float: left;
   display: flex;

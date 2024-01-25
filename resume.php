@@ -28,10 +28,10 @@
 				<div class="six columns">
 				
 					<h5 style="margin-top: 9px">Designer by day...</h5>
-					<a href="images/2023_resume.pdf" download>Download Resume</a>
-					<a href="currierMichelle_CV_23-Jan-2024.pdf" download>Download 2024 Resumen</a>
+					<a href="images/2023_resume.pdf" download>Download Resume</a> <br>
+					<a href="currierMichelle_CV_23-Jan-2024.pdf" download>Download 2024 IBM Resume</a><br>
 
-					<a href="Porfolio_Packet_MichelleCurrier.pptx" download>Download Portfolio Packet</a>
+					<a href="Porfolio_Packet_MichelleCurrier_ext.pdf" download="MichelleCurrierPortfolioPacket">Download Portfolio Packet</a>
 				</div>
 			</div>
 			<div class="row">

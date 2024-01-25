@@ -31,3 +31,7 @@
   width: 100%;
   border: 0;
   }
+
+  .rslides .slide {
+    display: flex;
+  }

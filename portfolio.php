@@ -23,6 +23,7 @@
 						<div class="inner-wrapper">
 							<div class="slide"><img src="http://mcurrier.com/images/party_email.jpg"></div>
 							<div class="slide"><img src="http://mcurrier.com/images/essentialCBDLogo.png"></div>
+							<div class="slide"><img src="http://mcurrier.com/images/Iterations_Timeline.jpg"></div>
 							<div class="slide"><img src="http://mcurrier.com/images/tracking_adv.jpg"></div>		
 							<div class="slide"><img src="http://mcurrier.com/images/url_breakdown.jpg"></div>
 							<div class="slide"><img src="http://mcurrier.com/images/hit_id.jpg"></div>

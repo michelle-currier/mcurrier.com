@@ -177,7 +177,8 @@
 		<div class="row">
 			<div class="six columns">			
 				<p>Here are a few examples of some websites that I have completed and worked on.</p>
-				<h5><a href="http://Kruu.mcurrier.com" target="_blank" title="Kruu app">Kruu app</a></h5>
+				<h5><a href="//kruu.vercel.app/" target="_blank" title="Kruu app">Kruu app</a></h5>
+				<!-- <h5><a href="http://Kruu.mcurrier.com" target="_blank" title="Kruu app">Kruu app</a></h5> -->
 				<h5><a href="http://vspfinance.com/" target="_blank" title="Valley Strategic Partners">Valley Strategic Partners</a></h5>
 				<!-- <h5 class="green"><a href="http://aquascape.mcurrier.com/" target="_blank" title="Aquascape LLC">Aquascape</a></h5> -->
 				<h5><a href="http://gocirca.mcurrier.com/" target="_blank" title="GoCirca Landing Page">GoCirca Landging Page</a></h5>
