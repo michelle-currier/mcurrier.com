@@ -4,7 +4,7 @@ backup of my website
 
 ## put your repo inside of the xampp/htdocs directory to run with XAMPP!!!
 
-open xampp and start apache and navigate to `http://localhost/mcurrier.com/`
+open xampp run manager-osx then navigate to the manage servers tab and start apache. In your browser navigate to `http://localhost/mcurrier.com/` and see your site on your local.
 
 #
 
