@@ -1,6 +1,5 @@
-
 // Wait for the DOM to be ready
-$(function() {
+$(function () {
   // Initialize form validation on the registration form.
   // It has the name attribute "registration"
   $("form[name='contactus']").validate({
@@ -15,12 +14,16 @@ $(function() {
         required: true,
         // Specify that email should be validated
         // by the built-in "email" rule
-        email: true
+        email: true,
       },
       phone: {
         required: true,
-        minlength: 10
-      }
+        minlength: 10,
+      },
+      // Honeypot check: make sure the honeypot field is empty
+      honeypot: {
+        equalTo: "",
+      },
     },
     // Specify validation error messages
     messages: {
@@ -28,14 +31,20 @@ $(function() {
       comment: "Please say something to me",
       phone: {
         required: "Please provide a phone number",
-        minlength: "Your phone number must be at least 10 digits long"
+        minlength: "Your phone number must be at least 10 digits long",
       },
-      email: "Please enter a valid email address"
+      email: "Please enter a valid email address",
+      honeypot: "Spam detected!", // Message for bots filling out the honeypot field
     },
     // Make sure the form is submitted to the destination defined
     // in the "action" attribute of the form when valid
-    submitHandler: function(form) {
+    submitHandler: function (form) {
+      // If honeypot field is filled (indicating spam), prevent form submission
+      if ($("input[name='honeypot']").val() !== "") {
+        alert("Spam detected!");
+        return false; // Prevent form submission
+      }
       form.submit();
-    }
+    },
   });
 });
