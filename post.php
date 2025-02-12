@@ -22,10 +22,16 @@
 	// print_r($_POST);
 	// echo "</pre>";
 	$person->headers = 'From:info@mcurrier.com' . "\r\n" .
+		"Reply-To:  " . $person->email . "\r\n" .
 		"MIME-Version: 1.0" . "\r\n" .
 		"Content-type: text/html; charset=UTF-8" . "\r\n";
 
-	mail('mushel@gmail.com', "New message from $person->name", "$person->email and $person->name number is $person->phone. This is what they had to say in the comments: $person->comment", "$person->headers");
+	mail(
+		'mushel@gmail.com',
+		"mcurrier.com has a new message from $person->name",
+		"$person->email and $person->name number is $person->phone. This is what they had to say in the comments: $person->comment",
+		"$person->headers"
+	);
 
 
 
@@ -35,7 +41,7 @@
 			<h4 class="green">Your message was sent!</h4>
 			<p>
 				<?php
-				echo "Thanks $person->name, your email was sent to m. currier designs. from $person->email.";
+				echo "Thanks $person->name, your email was sent to m. currier designs with your reply email $person->email.";
 
 				?></p>
 		</div>
